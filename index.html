@@ -17,7 +17,7 @@
 	<div id="nav">
 		<a href="#about">About</a>
 		<a href="#portfolio">Portfolio</a>
-		<a href="#contact">Contact</a> <span style="word-spacing:normal; color:white; font-family:'Annie Use Your Telescope', arial, serif; font-size:20px;"><--Click a link to see this page in action!</span>
+		<a href="#contact">Contact</a> 
 	</div>
 </div>
 
@@ -44,28 +44,6 @@
 </div> <!--END page-wrap-->
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-<script>$(document).ready(function() {
-  function filterPath(string) {
-    return string
-      .replace(/^\//,'')  
-      .replace(/(index|default).[a-zA-Z]{3,4}$/,'')  
-      .replace(/\/$/,'');
-  }
-  $('a[href*=#]').each(function() {
-    if ( filterPath(location.pathname) == filterPath(this.pathname)
-    && location.hostname == this.hostname
-    && this.hash.replace(/#/,'') ) {
-      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
-      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
-       if ($target) {
-         var targetOffset = $target.offset().top;
-         $(this).click(function() {
-           $('html, body').animate({scrollTop: targetOffset}, 2000);
-           return false;
-         });
-      }
-    }
-  });
-});</script>
+
 </body>
 </html>
