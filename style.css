@@ -92,3 +92,34 @@ img {
   opacity:0.6;
 }
 /*End Image slider style*/
+
+.one-half{
+  width: 44%;
+  float: left;
+  margin: 2% 0 3% 4%;
+  text-align: center;
+}
+
+.one-third{
+  width: 28%;
+  float: left;
+  margin: 2% 0 3% 4%;
+  text-align: center;
+}
+
+.left-col{
+  width: 60%;
+  float: left;
+  margin: 4% 0 4% 4%;
+}
+
+.sidebar{
+  width: 26%;
+  float: right;
+  margin: 4% 4%;
+}
+
+.sidebar img{
+  opacity: 0.8;
+  
+}
