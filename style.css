@@ -1,2 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Hind); /*--- Body Font --*/
 @import url(https://fonts.googleapis.com/css?family=Nobile); /*--- Heading Font --*/
+
+/* Top header part */
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+/* body section */
+
+
