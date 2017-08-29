@@ -123,15 +123,44 @@ img {
   opacity: 0.8;  
 }
 
+.clearfix{
+  clear: both;
+}
+
 /* Start parallax section */
 .parallax-1{
   background: url("images/logo2.png") repeat fixed 100%;
   opacity: 0.3;
   text-align: center;
 }
-
-.parallax-2{
+.parallax-inner{
   padding-top:90px;
   padding-bottom:300px;
 }
+.parallax-2{
+  background: url("images/logo2.png") repeat fixed 100%;
+  text-align: center;
+}
+.parallax-inner h3, .parallax-inner p{
+  color: #f1f1f1;
+}
 /* End parallax section */
+
+footer{
+  background: #262e37;
+  width: 100%;
+  margin-top: 5%;
+  padding: 1% 0;
+  overflow: auto;
+}
+
+footer p {
+  color: #fff;
+}
+
+/*Start media queries*/
+@media screen and (max-width: 768px){
+  .slider .bx-wrapper .bx-controls {
+    display: none;
+  }
+}
