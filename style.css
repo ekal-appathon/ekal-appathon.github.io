@@ -67,4 +67,28 @@ img {
   z-index: -1;
   transition: all 0.75;
 }
+
+.slider .bx-wrapper:hover .bx-controls-direction a {
+  z-index = 5;
+}
+
+.slider .bx-wrapper .bx-prev {
+  background: #000 url("images/left-arrow-white.png") no-repeat 8px 13px;
+  left: 0px;
+  opacity:0.3;
+}
+
+.slider .bx-wrapper .bx-prev:hover {
+  opacity:0.6;
+}
+
+.slider .bx-wrapper .bx-next {
+  background: #000 url("images/right-arrow-white.png") no-repeat 10px 12px;
+  right: 0px;
+  opacity:0.3;
+}
+
+.slider .bx-wrapper .bx-next:hover {
+  opacity:0.6;
+}
 /*End Image slider style*/
