@@ -120,6 +120,18 @@ img {
 }
 
 .sidebar img{
-  opacity: 0.8;
-  
+  opacity: 0.8;  
 }
+
+/* Start parallax section */
+.parallax-1{
+  background: url("images/logo2.png") repeat fixed 100%;
+  opacity: 0.3;
+  text-align: center;
+}
+
+.parallax-2{
+  padding-top:90px;
+  padding-bottom:300px;
+}
+/* End parallax section */
