@@ -163,4 +163,31 @@ footer p {
   .slider .bx-wrapper .bx-controls {
     display: none;
   }
+  .parallax-inner{
+    display: none;
+  }
+  .one-third{
+    width: 100%;
+    margin: 4% 0;
+  }
+  .one-half{
+    display: none;
+  }
+  h1 {
+    font-size: 125%;
+  }
+  .left-col{
+    width: 100%;
+    margin: 0 0 3% 0;
+  }
+  .sidebar{
+    width: 100%;
+    margin: 0;
+  }
+  img {
+    width: 100%;
+  }
+  h3{
+    padding-top: 3%;
+  }
 }
