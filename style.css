@@ -11,5 +11,37 @@
 }
 
 /* body section */
+body {
+  background-color: #ff6666;
+  font-family: 'Hind', sans-serif;
+  font-size: 18px;
+  position: relative;
+}
 
+h1{
+  font-family:'Nobile',sans-serif;
+  text-align: center;
+  font-size: 175%;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  padding: 3% 0;
+}
 
+h2,h3,h4{
+  font-family:'Nobile',sans-serif;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1%;
+}
+
+p{
+  padding: 2%;
+  color: #000099;
+  text-align: justify;  
+}
+img {
+  max-width:100%;
+  height: auto;
+}
