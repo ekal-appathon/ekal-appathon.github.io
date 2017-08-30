@@ -31,10 +31,10 @@
 <!--- End Navigation -->
 	<div class="clearfix"></div>
 <!--- Start Slider -->
-		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
-		<div class="one-half">
+		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->		
 		<div class="slide-wrap">
 <!--ADD IMAGE SLIDES HERE-->
+			<section class="one-half">
 			<section class="slider">
 				<ul class="slider1">
 					<li><img src="images/slider1image.png"></li>
@@ -43,13 +43,14 @@
 					<!-- add more slide images here -->
 				</ul>
 			</section>
-		</div>	
-		</div>
-		<div class="one-half" style="width: 190px; height: 190px; overflow: auto; padding: 5px">
-			
+			</section>
+			<section class="one-half">
+				<div style="width: 190px; height: 190px; overflow: auto; padding: 5px">
       content in here
-   
-		</div>	
+   </div>
+			</section>
+			
+		</div>			
 		<script type="text/javascript">
 			$('.slider1').bxSlider({
 				mode: 'fade',
